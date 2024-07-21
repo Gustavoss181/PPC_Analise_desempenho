@@ -1,0 +1,7 @@
+Análise e conclusão (observe os gráficos gerados antes):
+
+Analisando os gráficos feitos a partir dos dados gerados pelos programas em c e c++, foi possível concluir que:
+Quanto mais aumentou o número de iterações, melhor foi o resultado de tempo para um número maior de threads, o que é esperado.
+Porém, também é possível notar que o SpeedUp foi muito melhor para 4 threads do que para 8, e a eficiência também.
+Isso pode ser explicado por conta da Métrica de Karp-Flat, que pelos resultados obtidos, mostra que o valor estava aumentando  quando aumentou o número de threads. Isso mostra que está ocorrendo Overheading Paralelo.
+Isso ocorre por conta do acesso à algumas variáveis, que são modificadas por todas as threads. Por conta disso é necessário um controle de acesso, que atrasa a execução do código.

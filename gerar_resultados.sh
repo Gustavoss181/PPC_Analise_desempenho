@@ -33,3 +33,5 @@ for n in 1000 10000 100000 1000000; do
 		echo '' >> $saida_pthread
 	done
 done
+
+cat analise_e_conclusao.txt

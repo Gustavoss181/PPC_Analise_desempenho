@@ -1,6 +1,7 @@
 Análise e conclusão (observe os gráficos gerados antes):
 
 Analisando os gráficos feitos a partir dos dados gerados pelos programas em c e c++, foi possível concluir que:
+A biblioteca OpenMP se mosttrou com melhores resultados do que a biblioteca PThread. Principalmente nas médias de tempo, no qual é possível notar uma alta redução do tempo ao aumentar o número de iterações (N) e o número de threads.
 Quanto mais aumentou o número de iterações, melhor foi o resultado de tempo para um número maior de threads, o que é esperado.
 Porém, também é possível notar que o SpeedUp foi muito melhor para 4 threads do que para 8, e a eficiência também.
 Isso pode ser explicado por conta da Métrica de Karp-Flat, que pelos resultados obtidos, mostra que o valor estava aumentando  quando aumentou o número de threads. Isso mostra que está ocorrendo Overheading Paralelo.
